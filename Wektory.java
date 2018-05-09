@@ -31,7 +31,7 @@ public class Wektory {
 				try {
 					C = addVec(A, B);
 				} catch(WektoryException e) {
-					System.out.println("ERROR: " + e.getMessage() + " " + e.dlA + " != " + e.dlB);
+					System.out.println("ERROR: " + e.getMessage() + " pierwszy ma dlugosc " + e.dlA + " a drugi " + e.dlB);
 					System.out.println("Podaj ponownie wektory.");
 					w = true;
 				}
